@@ -71,7 +71,7 @@ namespace Not_Kayit_Sistemi
             this.label3.Size = new System.Drawing.Size(64, 18);
             this.label3.TabIndex = 2;
             this.label3.Text = "Sınav 1:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            //this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -144,7 +144,7 @@ namespace Not_Kayit_Sistemi
             this.label11.Size = new System.Drawing.Size(75, 18);
             this.label11.TabIndex = 10;
             this.label11.Text = "Ortalama";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
+            //this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // LblOrtalama
             // 

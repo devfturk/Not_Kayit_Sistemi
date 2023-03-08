@@ -25,5 +25,14 @@ namespace Not_Kayit_Sistemi
             frm.Show();
             
         }
+
+        private void maskedTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (maskedTextBox1.Text == "0101")
+            {
+                FrmOgretmenDetay fr = new FrmOgretmenDetay();
+                fr.Show();
+            }
+        }
     }
 }

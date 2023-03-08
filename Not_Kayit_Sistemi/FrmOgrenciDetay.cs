@@ -18,15 +18,6 @@ namespace Not_Kayit_Sistemi
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
         public string numara;
         SqlConnection baglanti = new SqlConnection(@"Data Source=MSI;Initial Catalog=DbNotKayit;Integrated Security=True");
         
